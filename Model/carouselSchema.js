@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const carouselSchema = mongoose.Schema({
 
-    imageURL: {type:String},
+    imageURL: {type:Array},
     userEmail: {type: String},
     hotelname : {type: String}
 
