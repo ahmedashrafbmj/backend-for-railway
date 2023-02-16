@@ -159,6 +159,7 @@ const getallPostbycategory = async(req, res)=>{
     const allpostcategory = await postModel.find({productName: productName});
 
     res.json(allpostcategory);
+    console.log(allpostcategory,"allpostcategory")
 
 }
 
